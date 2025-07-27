@@ -1,0 +1,23 @@
+import AboutMe from "../components/Home/about";
+import Photos from "../components/Home/album/photos";
+import Animation from "../components/Home/animetion/animation";
+import Contact from "../components/Home/Contact";
+import Hero from "../components/Home/Hero";
+import Work from "../components/Home/Work";
+import Footer from "../components/navigation/Footer";
+import NaveBar from "../components/navigation/navbar";
+
+export default function Home() {
+  return (
+    <div>
+      <NaveBar/>
+      <Hero/>
+      <AboutMe/>
+      <Work/>
+      <Photos/>
+      <Contact/>
+      <Animation/>
+      <Footer/>
+    </div>
+  );
+}
