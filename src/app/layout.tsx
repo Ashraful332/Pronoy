@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import SmoothWrapper from "./SmoothWrapper";
 import CustomCursor from "./CustomCursor";
+import SmoothScroll from "./SmoothWrapper";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -30,12 +30,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased  `}
       >
-        <SmoothWrapper>
+        <SmoothScroll>
           <div className="relative">
             <CustomCursor />
             {children}
           </div>
-        </SmoothWrapper>
+        </SmoothScroll>
       </body>
     </html>
   );
