@@ -1,66 +1,91 @@
-// app/components/education.tsx
-'use client'
-
 import Image from "next/image";
-import EducationLogo from "@/assets/education.svg";
+import EducationLogo from "@/assets/education.svg"
+import "../home.css"
 
-const educationData = [
-    {
-        title: "Former Jr. IET Accounts Officer & Management",
-        institution: "Robi Axiata Ltd & Airtel",
-        duration: "",
-    },
-    {
-        title: "Former Online Promoter, Assistant Director & Co-Artist",
-        institution: "BFDC (Bangladesh Film Development Corporation)",
-        duration: "",
-    },
-    {
-        title: "BSc in Computer Science & Engineering (CSE)",
-        institution: "Sonargaon University",
-        duration: "",
-    },
-    {
-        title: "BA/BSS Programme",
-        institution: "Govt. Tolaram College & University, Narayanganj",
-        duration: "",
-    },
-    {
-        title: "Studied at",
-        institution: "Sonargaon Govt. College",
-        duration: "",
-    },
-];
 
-export default function EducationSmallScreen() {
-    return (
-        <div>
-        <div className="mb-10 flex items-center mt-16">
-            <div className="w-[26vw] ml-[18.5vw] h-[1.5px] bg-white"></div>
-            <h3 className="text-2xl font-bold text-white ml-4">My Education</h3>
+export default function EducationBigScreen(){
+    return(
+    <div>
+        <div className="mb-10 flex items-center mt-primary ">
+            <div className="w-[26vw] ml-[18.5vw] h-[1.5px] bg-white "></div>
+            <h3 className=" text-xl md:text-2xl font-bold">My Education</h3>
         </div>
-
-        <div className="flex justify-center px-4">
-            <div className="relative">
-            {/* Vertical timeline line */}
-            <div className="absolute left-6 top-0 h-full w-[2px] bg-white z-0"></div>
-
-            {/* Timeline entries */}
-            {educationData.map((edu, index) => (
-                <div key={index} className="flex items-start mb-12 relative z-10">
-                <div className="flex flex-col items-center mr-6">
-                    <Image src={EducationLogo} alt="Education Icon" width={40} height={40} className="education-svg " />
-                    <div className="w-[2px] flex-1 bg-white mt-2"></div>
+        <div className="flex-center relative mx-auto">
+            <div>
+                <div className="flex flex-row items-start gap-2 md:gap-8 mb-4 ">
+                    <div className=" flex flex-col  ">
+                        <Image src={EducationLogo} alt="logo" className="education-svg" />
+                        
+                        
+                    </div>
+                    <div className="w-4 h-1 bg-white "></div>
+                    <div className="w-[68%] md:w-[370px] flex flex-col items-start ">
+                        <h2 className="text-md md:text-lg font-bold mb-2 text-white">Former Jr. IET Accounts Officer & Management</h2>
+                        <p className="mb-3 font-bold text-sm md:text-base">institution: "Robi Axiata Ltd & Airtel"</p>
+                        <p className="text-xs md:text-base">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam laborum velit necessitatibus quidem fugit nesciunt corporis praesentium vero similique.
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <h4 className="text-white text-lg font-semibold">{edu.title}</h4>
-                    <p className="text-white text-sm">{edu.institution}</p>
-                    {edu.duration && <p className="text-white text-xs italic">{edu.duration}</p>}
+                <div className="flex flex-row items-start gap-2 md:gap-8 mb-4 ">
+                    <div className=" flex flex-col  ">
+                        <Image src={EducationLogo} alt="logo" className="education-svg" />
+                        
+                        
+                    </div>
+                    <div className="w-4 h-1 bg-white "></div>
+                    <div className="w-[68%] md:w-[370px] flex flex-col   ">
+                        <h2 className="text-md md:text-lg font-bold mb-2 text-white">Former Online Promoter, Assistant Director & Co-Artist</h2>
+                        <p className="mb-3 font-bold text-sm md:text-base">institution: "BFDC (Bangladesh Film Development Corporation)"</p>
+                        <p className="text-xs md:text-base">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam laborum velit necessitatibus quidem fugit nesciunt corporis praesentium vero similique.
+                        </p>
+                    </div>
                 </div>
+                <div className="flex flex-row items-start gap-2 md:gap-8 mb-4 ">
+                    <div className=" flex flex-col  ">
+                        <Image src={EducationLogo} alt="logo" className="education-svg" />
+                        
+                        
+                    </div>
+                    <div className="w-4 h-1 bg-white "></div>
+                    <div className="w-[68%] md:w-[370px] flex flex-col items-start ">
+                        <h2 className="text-md md:text-lg font-bold mb-2 text-white">BSc in Computer Science & Engineering (CSE)</h2>
+                        <p className="mb-3 font-bold text-sm md:text-base">institution: "Sonargaon University"</p>
+                        <p className="text-xs md:text-base">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam laborum velit necessitatibus quidem fugit nesciunt corporis praesentium vero similique.
+                        </p>
+                    </div>
                 </div>
-            ))}
+                <div className="flex flex-row items-start gap-2 md:gap-8 mb-4 ">
+                    <div className="flex flex-col items-start ">
+                        <Image src={EducationLogo} alt="logo" className="education-svg" />
+                    </div>
+                    <div className="w-4 h-1 bg-white "></div>
+                    <div className="w-[68%] md:w-[370px] flex flex-col ">
+                        <h2 className="text-md md:text-lg font-bold mb-2 text-white">BA/BSS Programme</h2>
+                        <p className="mb-3 font-bold text-sm md:text-base"> institution: "Govt. Tolaram College & University, Narayanganj"</p>
+                        <p className="text-xs md:text-base">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam laborum velit necessitatibus quidem fugit nesciunt corporis praesentium vero similique.
+                        </p>
+                    </div>
+                </div>
+                <div className="flex flex-row items-start gap-2 md:gap-8 mb-4 ">
+                    <div className="flex flex-col items-start ">
+                        <Image src={EducationLogo} alt="logo" className="education-svg" />
+                    </div>
+                    <div className="w-4 h-1 bg-white "></div>
+                    <div className=" w-[68%] md:w-[370px] flex flex-col items-start ">
+                        <h2 className="text-md md:text-lg font-bold mb-2 text-white">Studied at</h2>
+                        <p className="mb-3 font-bold text-sm md:text-base">institution: "Sonargaon Govt. College"</p>
+                        <p className="text-xs md:text-base">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam laborum velit necessitatibus quidem fugit nesciunt corporis praesentium vero similique.
+                        </p>
+                    </div>
+                </div>
             </div>
+            <div className="absolute w-[1.5px] h-[950px] hidden bg-white "></div>
         </div>
-        </div>
-    );
+    </div>
+    )
 }

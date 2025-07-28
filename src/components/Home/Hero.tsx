@@ -8,8 +8,8 @@ import RESUME from "./ui/Resume";
 
 export default function Hero(){
       return(
-            <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center gap-[8%] mx-auto mt-[70px] ">
-                  <div className="w-[600px] ">
+            <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center gap-10 lg:gap-[8%] text-center lg:text-start mx-auto mt-[70px] ">
+                  <div className=" w-[97%] sm:w-[600px] flex flex-col items-center lg:items-start ">
                         <h2 className="text-2xl font-bold text-blue-500 mb-2">Toimur Hasan Pronoy</h2>
                         <p className="mb-5 font-bold ">
                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam laborum velit necessitatibus quidem fugit nesciunt corporis praesentium vero similique.
@@ -30,7 +30,7 @@ export default function Hero(){
                         </div>
                         <RESUME/>
                   </div>
-                  <div className="w-[350px] h-[350px] rounded-lg ">
+                  <div className=" w-[97%] sm:w-[350px] h-auto sm:h-[350px] rounded-lg ">
                         <Image src={Photo} alt="my photo" className="object-cover rounded-lg" />
                   </div>
             </div>
