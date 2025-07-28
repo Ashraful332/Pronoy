@@ -3,7 +3,8 @@ import Photo from "@/assets/photo.jpg";
 import Facebook from "@/assets/icons8-facebook.svg";
 import YouTub from "@/assets/youtube-icon.svg";
 import instagram from "@/assets/icons8-instagram-logo-188.png";
-import RESUME from "./ui/Resume.tsx";
+import RESUME from "./ui/Resume";
+
 
 export default function Hero(){
       return(
