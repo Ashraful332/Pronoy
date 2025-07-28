@@ -11,7 +11,7 @@ export default function SmoothWrapper({ children }: { children: React.ReactNode 
     if (typeof window === 'undefined') return; // Ensure it's client
 
     const scroll = new LocomotiveScroll({
-      el: containerRef.current as HTMLElement,
+    //   el: containerRef.current as HTMLElement,
       smooth: true,
       lerp: 0.05,
       multiplier: 1,
