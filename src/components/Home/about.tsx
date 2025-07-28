@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Photo from "@/assets/photo.jpg"
+import Photo from "@/assets/photo/2.jpg"
 
 
 export default function AboutMe(){
@@ -14,7 +14,7 @@ export default function AboutMe(){
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse illo debitis quod illum repellat iste. Veniam soluta iusto voluptatum rem explicabo fuga laudantium id, voluptates ex? Asperiores explicabo esse soluta perspiciatis, qui necessitatibus beatae temporibus sapiente officiis, eum voluptates dolorum vero consequuntur voluptas? Vitae iusto eum quisquam illum ipsum voluptate?
                 </p>
             </div>
-            <div className="w-[350px] h-[350px] rounded-lg ">
+            <div className="w-[350px] h-[350px] overflow-hidden rounded-lg ">
                 <Image src={Photo} alt="my photo" className="object-cover rounded-lg" />
             </div>
         </div>

@@ -19,6 +19,27 @@ body {
 }
 
 
+/* Global Scrollbar Customization */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #4ca836 transparent;
+}
+
+/* Chrome, Edge, Safari */
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #4ca836;
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
 
 /* the costom tailwind utulaty */
 @layer utilities {

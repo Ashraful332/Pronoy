@@ -6,14 +6,9 @@ export default function CustomCursor() {
   const cursorRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const scrollContainer = document.querySelector('[data-scroll-container]') as HTMLElement | null;
-
-    if (!scrollContainer) return;
-
     const moveCursor = (e: MouseEvent) => {
-      const bounds = scrollContainer.getBoundingClientRect();
-      const x = e.clientX - bounds.left;
-      const y = e.clientY - bounds.top;
+      const x = e.clientX;
+      const y = e.clientY;
 
       gsap.to(cursorRef.current, {
         x: x - 15,
@@ -40,21 +35,23 @@ export default function CustomCursor() {
       }
     };
 
-    scrollContainer.addEventListener('mousemove', moveCursor);
-    scrollContainer.addEventListener('mouseover', handleHover);
+    window.addEventListener('mousemove', moveCursor);
+    window.addEventListener('mouseover', handleHover);
 
     return () => {
-      scrollContainer.removeEventListener('mousemove', moveCursor);
-      scrollContainer.removeEventListener('mouseover', handleHover);
+      window.removeEventListener('mousemove', moveCursor);
+      window.removeEventListener('mouseover', handleHover);
     };
   }, []);
 
   return (
     <div
       ref={cursorRef}
-      className="absolute top-0 left-0 z-50 w-8 h-8 rounded-full border border-white bg-white/10 pointer-events-none mix-blend-difference"
+      className="fixed top-0 left-0 z-10 w-8 h-8 rounded-full border border-white bg-white/10 pointer-events-none mix-blend-difference"
     ></div>
   );
 }
+
+
 
 

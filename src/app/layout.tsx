@@ -31,7 +31,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased  `}
       >
         <SmoothScroll>
-          <div className="relative">
+          <div >
             <CustomCursor />
             {children}
           </div>

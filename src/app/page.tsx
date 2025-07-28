@@ -10,7 +10,7 @@ import NaveBar from "../components/navigation/navbar";
 
 export default function Home() {
   return (
-    <div className=" max-w-screen overflow-x-hidden px-[14px] sm:px-[30px] ">
+    <div className=" max-w-screen overflow-x-hidden px-[14px] sm:px-[30px]  ">
       <NaveBar/>
       <Hero/>
       <AboutMe/>

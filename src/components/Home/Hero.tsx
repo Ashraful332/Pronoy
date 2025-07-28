@@ -18,13 +18,13 @@ export default function Hero(){
                               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit ullam perferendis eum commodi nesciunt expedita vel facilis aliquam voluptatum porro.
                         </p>
                         <div className="flex flex-row items-center gap-3 mt-[17px] ">
-                              <a href="#">
+                              <a href="https://www.facebook.com/toimur.hasan.54" target="_blank">
                                     <Image src={Facebook} alt="my photo" className="w-7 h-7 " />
                               </a>
-                              <a href="#">
+                              <a href="https://youtube.com/@PronoyThp" target="_blank">
                                     <Image src={YouTub} alt="my photo" className="w-7 h-7 " />
                               </a>
-                              <a href="#">
+                              <a href="https://www.instagram.com/toimurpronoy" target="_blank">
                                     <Image src={instagram} alt="my photo" className="w-7 h-7 " />
                               </a>
                         </div>
