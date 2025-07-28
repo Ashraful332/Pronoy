@@ -6,7 +6,7 @@ export default function CustomCursor() {
   const cursorRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const scrollContainer = document.querySelector('[data-scroll-container]');
+    const scrollContainer = document.querySelector('[data-scroll-container]') as HTMLElement | null;
 
     if (!scrollContainer) return;
 
