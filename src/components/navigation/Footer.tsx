@@ -1,4 +1,3 @@
-import a from "next/a";
 import Logo from "@/assets/my_logo.svg"
 import Apple from "@/assets/apple.svg"
 import Play from "@/assets/play.svg"
