@@ -10,11 +10,11 @@ import "./con.css"
 export default function Contact(){
     return(
         <div className="flex-center mt-[var(--margin-high)] mb-high ">
-            <div className="flex items-start justify-between">
+            <div className="flex flex-col lg:flex-row items-center lg:items-start gap-5 justify-between">
                 <div>
                     {/* <!-- From Uiverse.io by Javierrocadev --> */}
                     <div
-                        className="cursor-pointer group overflow-hidden p-5 duration-1000 hover:duration-1000 relative w-[450px] h-[500px] bg-neutral-800 rounded-xl"
+                        className="cursor-pointer group overflow-hidden p-5 duration-1000 hover:duration-1000 relative w-[97vw] sm:w-[450px] h-[500px] bg-neutral-800 rounded-xl"
                     >
                         {/* Floating Decorative Boxes */}
                         <div className="group-hover:-rotate-45 bg-transparent group-hover:scale-150 -top-12 -left-12 absolute shadow-yellow-800 shadow-inner rounded-xl transition-all ease-in-out group-hover:duration-1000 duration-1000 w-24 h-24"></div>
@@ -62,7 +62,7 @@ export default function Contact(){
                 {/* <!-- From Uiverse.io by themrsami -->  */}
                 <div className="container px-4 mx-auto">
                 <div className="mx-auto">
-                    <div className="w-[450px] h-[500px] mx-auto px-8 py-6 bg-[#2b2b30] rounded-lg shadow-lg">
+                    <div className="w-[97vw] sm:w-[450px] h-[500px] mx-auto px-8 py-6 bg-[#2b2b30] rounded-lg shadow-lg">
                     <h2 className="text-2xl font-semibold text-white mb-4">Contact With me</h2>
                     <form>
                         <div className="mb-4">
