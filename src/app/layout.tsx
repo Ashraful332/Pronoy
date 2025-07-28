@@ -28,11 +28,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased `}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased  `}
       >
         <SmoothWrapper>
-          {children}
-          <CustomCursor />
+          <div className="relative">
+            <CustomCursor />
+            {children}
+          </div>
         </SmoothWrapper>
       </body>
     </html>
