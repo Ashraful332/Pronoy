@@ -1,3 +1,4 @@
+import Education from "@/components/Home/Education";
 import AboutMe from "../components/Home/about";
 import Photos from "../components/Home/album/photos";
 import Animation from "../components/Home/animetion/animation";
@@ -13,6 +14,7 @@ export default function Home() {
       <NaveBar/>
       <Hero/>
       <AboutMe/>
+      <Education/>
       <Work/>
       <Photos/>
       <Contact/>

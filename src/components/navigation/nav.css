@@ -34,3 +34,10 @@
     @apply hidden lg:flex lg:items-center ;
 }
 }
+
+/* footer css */
+.footer-header{
+    font: 800;
+    font-size: 20px;
+    color: white;
+}
