@@ -2,7 +2,7 @@ import Education from "@/components/Home/Education";
 import AboutMe from "../components/Home/about";
 import Photos from "../components/Home/album/photos";
 import Animation from "../components/Home/animetion/animation";
-import Contact from "../components/Home/Contact";
+import Contact from "../components/Home/contact/Contact";
 import Hero from "../components/Home/Hero";
 import Work from "../components/Home/Work";
 import Footer from "../components/navigation/Footer";
@@ -18,7 +18,7 @@ export default function Home() {
       <Work/>
       <Photos/>
       <Contact/>
-      <Animation/>
+      {/* <Animation/> */}
       <Footer/>
     </div>
   );
