@@ -66,7 +66,7 @@ export default function Contact(){
                     <h2 className="text-2xl font-semibold text-white mb-4">Contact With me</h2>
                     <form>
                         <div className="mb-4">
-                        <label className="block text-white mb-1" for="name">Your Name</label>
+                        <label className="block text-white mb-1" htmlFor="name">Your Name</label>
                         <input
                             className="w-full px-4 py-2 bg-[#1a1a1d] rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-300 transition duration-300"
                             placeholder="Enter your name"
@@ -74,7 +74,7 @@ export default function Contact(){
                         />
                         </div>
                         <div className="mb-4">
-                        <label className="block text-white mb-1" for="email">Your Email</label>
+                        <label className="block text-white mb-1" htmlFor="email">Your Email</label>
                         <input
                             className="w-full px-4 py-2 bg-[#1a1a1d] rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-300 transition duration-300"
                             placeholder="Enter your email"
@@ -84,12 +84,12 @@ export default function Contact(){
                         />
                         </div>
                         <div className="mb-4">
-                        <label className="block text-white mb-1" for="message"
+                        <label className="block text-white mb-1" htmlFor="message"
                             >Your Message
                             </label>
                         <textarea
                             className="w-full px-4 py-2 bg-[#1a1a1d] rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-300 transition duration-300"
-                            rows="4"
+                            rows={4}
                             placeholder="Enter your message"
                             name="message"
                             id="message"
