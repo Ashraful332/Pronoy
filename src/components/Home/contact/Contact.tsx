@@ -63,7 +63,7 @@ export default function Contact(){
                 <div className="container px-4 mx-auto">
                 <div className="mx-auto">
                     <div className="w-[450px] h-[500px] mx-auto px-8 py-6 bg-[#2b2b30] rounded-lg shadow-lg">
-                    <h2 className="text-2xl font-semibold text-white mb-4">Contact Us</h2>
+                    <h2 className="text-2xl font-semibold text-white mb-4">Contact With me</h2>
                     <form>
                         <div className="mb-4">
                         <label className="block text-white mb-1" for="name">Your Name</label>
