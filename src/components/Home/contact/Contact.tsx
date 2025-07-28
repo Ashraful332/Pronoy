@@ -85,8 +85,8 @@ export default function Contact(){
                         </div>
                         <div className="mb-4">
                         <label className="block text-white mb-1" for="message"
-                            >Your Message</label
-                        >
+                            >Your Message
+                            </label>
                         <textarea
                             className="w-full px-4 py-2 bg-[#1a1a1d] rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-300 transition duration-300"
                             rows="4"
