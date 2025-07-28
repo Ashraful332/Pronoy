@@ -1,13 +1,33 @@
 import Image from "next/image";
-import Photo from "@/assets/photo.jpg"
+import Photo from "@/assets/photo.jpg";
+import Facebook from "@/assets/icons8-facebook.svg";
+import YouTub from "@/assets/youtube-icon.svg";
+import instagram from "@/assets/icons8-instagram-logo-188.png";
+import RESUME from "./ui/Resume.tsx";
 
 export default function Hero(){
       return(
             <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center gap-[8%] mx-auto mt-[70px] ">
-                  <div>
-                        <h2 className="text-2xl font-bold text-blue-500">Toimur Hasan Pronoy</h2>
-                        <p>Studies Studied BSc in Computer Science & Engineering - CSE at Sonargaon University</p>
-                        <p>Studied BA /BSS Programme at Govt. Tolaram College & University, Narayanganj</p>
+                  <div className="w-[600px] ">
+                        <h2 className="text-2xl font-bold text-blue-500 mb-2">Toimur Hasan Pronoy</h2>
+                        <p className="mb-5 ">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam laborum velit necessitatibus quidem fugit nesciunt corporis praesentium vero similique.
+                        </p>
+                        <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam laborum velit necessitatibus quidem fugit nesciunt corporis praesentium vero similique.
+                        </p>
+                        <div className="flex flex-row items-center gap-3 mt-[17px] ">
+                              <a href="#">
+                                     <Image src={Facebook} alt="my photo" className="w-7 h-7 " />
+                              </a>
+                              <a href="#">
+                                     <Image src={YouTub} alt="my photo" className="w-7 h-7 " />
+                              </a>
+                              <a href="#">
+                                     <Image src={instagram} alt="my photo" className="w-7 h-7 " />
+                              </a>
+                        </div>
+                        <RESUME/>
                   </div>
                   <div className="w-[350px] h-[350px] rounded-lg ">
                         <Image src={Photo} alt="my photo" className="object-cover rounded-lg" />

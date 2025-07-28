@@ -10,7 +10,7 @@ export default function NaveBar() {
             <div className="hidden-nav-show gap-[27px] ">
                   <Link href='/'>Home</Link>
                   <Link href='/'>About me</Link>
-                  <Link href='/'>exprience</Link>
+                  <Link href='/'>Blog</Link>
                   <Link href='/'>Photos</Link>
                   <Link href='/'>Contact</Link>
             </div>
@@ -22,10 +22,10 @@ export default function NaveBar() {
             </div>
             <div className="flex-row-center gap-5">
                   <p className="hidden sm:flex">
-                        11:24 were open
+                        Snowfall
                   </p>
                   <Link href='/' className="Table-Reservation text-sm sm:text-[16px] ">
-                        Table Reservation
+                        My Resume
                   </Link>
             </div>
       </nav>
