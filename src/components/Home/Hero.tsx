@@ -8,7 +8,8 @@ import RESUME from "./ui/Resume";
 
 export default function Hero(){
       return(
-            <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center gap-10 lg:gap-[8%] text-center lg:text-start mx-auto mt-[70px] ">
+            <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center gap-10 lg:gap-[8%] text-center lg:text-start mx-auto pt-[70px]
+             px-[14px] sm:px-[30px] spacer layer1 ">
                   <div className=" w-[97%] sm:w-[600px] flex flex-col items-center lg:items-start ">
                         <h2 className="text-2xl font-bold text-blue-500 mb-2">Toimur Hasan Pronoy</h2>
                         <p className="mb-5 font-bold ">

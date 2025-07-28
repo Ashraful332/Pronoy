@@ -9,7 +9,7 @@ import "./con.css"
 
 export default function Contact(){
     return(
-        <div className="flex-center mt-[var(--margin-high)] mb-high ">
+        <div className="flex-center pt-[var(--margin-high)] pb-[var(--margin-high)] px-[14px] sm:px-[30px] spacer layer6 ">
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-5 justify-between">
                 <div>
                     {/* <!-- From Uiverse.io by Javierrocadev --> */}

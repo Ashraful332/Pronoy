@@ -7,3 +7,33 @@
     filter: brightness(0) invert(1);
     width: 40px;
 }
+
+/* background svg */
+.spacer{
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.layer1{
+    background-image: url("../../assets/Background/okblack.svg");
+}
+.layer2{
+    background-image: url("../../assets/Background/blurbalck.svg");
+}
+.layer3{
+    background-image: url("../../assets/Background/bee.svg");
+}
+.layer4{
+    background-image: url("../../assets/Background/ok.svg");
+}
+.layer5{
+    background-image: url("../../assets/Background/tow.svg");
+}
+.layer6{
+    background-image: url("../../assets/Background/blackoknot.svg");
+}
+.layer7{
+    background-image: url("../../assets/Background/layered-waves-haikei.svg");
+}
