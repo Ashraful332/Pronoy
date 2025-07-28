@@ -11,10 +11,7 @@ export default function AboutMe(){
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam laborum velit necessitatibus quidem fugit nesciunt corporis praesentium vero similique.
                 </p>
                 <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam laborum velit necessitatibus quidem fugit nesciunt corporis praesentium vero similique.
-                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam laborum velit necessitatibus quidem fugit nesciunt corporis praesentium vero similique.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam laborum velit necessitatibus quidem fugit nesciunt corporis praesentium vero similique.
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam laborum velit necessitatibus quidem fugit nesciunt corporis praesentium vero similique.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse illo debitis quod illum repellat iste. Veniam soluta iusto voluptatum rem explicabo fuga laudantium id, voluptates ex? Asperiores explicabo esse soluta perspiciatis, qui necessitatibus beatae temporibus sapiente officiis, eum voluptates dolorum vero consequuntur voluptas? Vitae iusto eum quisquam illum ipsum voluptate?
                 </p>
             </div>
             <div className="w-[350px] h-[350px] rounded-lg ">

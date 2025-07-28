@@ -10,21 +10,21 @@ export default function Hero(){
             <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center gap-[8%] mx-auto mt-[70px] ">
                   <div className="w-[600px] ">
                         <h2 className="text-2xl font-bold text-blue-500 mb-2">Toimur Hasan Pronoy</h2>
-                        <p className="mb-5 ">
+                        <p className="mb-5 font-bold ">
                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam laborum velit necessitatibus quidem fugit nesciunt corporis praesentium vero similique.
                         </p>
-                        <p>
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam laborum velit necessitatibus quidem fugit nesciunt corporis praesentium vero similique.
+                        <p className="font-medium">
+                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit ullam perferendis eum commodi nesciunt expedita vel facilis aliquam voluptatum porro.
                         </p>
                         <div className="flex flex-row items-center gap-3 mt-[17px] ">
                               <a href="#">
-                                     <Image src={Facebook} alt="my photo" className="w-7 h-7 " />
+                                    <Image src={Facebook} alt="my photo" className="w-7 h-7 " />
                               </a>
                               <a href="#">
-                                     <Image src={YouTub} alt="my photo" className="w-7 h-7 " />
+                                    <Image src={YouTub} alt="my photo" className="w-7 h-7 " />
                               </a>
                               <a href="#">
-                                     <Image src={instagram} alt="my photo" className="w-7 h-7 " />
+                                    <Image src={instagram} alt="my photo" className="w-7 h-7 " />
                               </a>
                         </div>
                         <RESUME/>
