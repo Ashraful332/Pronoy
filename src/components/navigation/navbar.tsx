@@ -10,7 +10,8 @@ export default function NaveBar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="max-w-[1170px] flex items-center justify-between m-auto font-normal pt-[10px] mb-2 relative z-50 px-[14px] sm:px-[30px]  ">
+  <div className="spacer layer1 h-10 ">
+    <nav className="max-w-[1170px] flex items-center justify-between m-auto font-normal pt-[10px] pb-2 relative z-50 px-[14px] sm:px-[30px]  ">
       {/* Desktop Menu */}
       <div className="hidden lg:flex gap-[27px]">
         <Link href='/'>Home</Link>
@@ -72,5 +73,6 @@ export default function NaveBar() {
         </div>
       )}
     </nav>
+  </div>
   )
 }
