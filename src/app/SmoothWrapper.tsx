@@ -5,19 +5,16 @@ import LocomotiveScroll from 'locomotive-scroll';
 import 'locomotive-scroll/dist/locomotive-scroll.css';
 
 export default function SmoothWrapper({ children }: { children: React.ReactNode }) {
-  const scrollRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (typeof window === 'undefined') return;
-
-    const scrollEl = scrollRef.current;
-    if (!scrollEl) return;
+    if (typeof window === 'undefined') return; // Ensure it's client
 
     const scroll = new LocomotiveScroll({
-      el: scrollEl,
+      el: containerRef.current as HTMLElement,
       smooth: true,
       lerp: 0.05,
-      multiplier: 2,
+      multiplier: 1,
     });
 
     return () => {
@@ -25,7 +22,7 @@ export default function SmoothWrapper({ children }: { children: React.ReactNode 
     };
   }, []);
 
-  return <div data-scroll-container ref={scrollRef}>{children}</div>;
+  return <div ref={containerRef} data-scroll-container>{children}</div>;
 }
 
 
