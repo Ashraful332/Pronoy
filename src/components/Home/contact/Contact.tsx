@@ -35,7 +35,7 @@ export default function Contact(){
                             <Image src={Email} alt="icon" className="w-[40px]" />
                             <div className="flex flex-col">
                             <h3 className="font-bold text-lg text-white">E-mail</h3>
-                            <p className="text-white">hello@domain.com</p>
+                            <p className="text-white">name@domain.com</p>
                             </div>
                         </div>
 
@@ -43,7 +43,7 @@ export default function Contact(){
                             <Image src={Call} alt="icon" className="w-[40px]" />
                             <div className="flex flex-col">
                             <h3 className="font-bold text-lg text-white">Phone</h3>
-                            <p className="text-white">+123 445 566</p>
+                            <p className="text-white">+880 1000 000</p>
                             </div>
                         </div>
 
@@ -51,7 +51,7 @@ export default function Contact(){
                             <Image src={Location} alt="icon" className="w-[40px]" />
                             <div className="flex flex-col">
                             <h3 className="font-bold text-lg text-white">Location</h3>
-                            <p className="text-white">123 Main Street New York, 10001</p>
+                            <p className="text-white">Bangladesh ,Narayanganj</p>
                             </div>
                         </div>
                         </div>
@@ -63,7 +63,7 @@ export default function Contact(){
                 <div className="container px-4 mx-auto">
                 <div className="mx-auto">
                     <div className="w-[97vw] sm:w-[450px] h-[500px] mx-auto px-8 py-6 bg-[#2b2b30] rounded-lg shadow-lg">
-                    <h2 className="text-2xl font-semibold text-white mb-4">Contact With me</h2>
+                    <h2 className="text-2xl font-semibold text-blue-500 mb-4">Contact With me</h2>
                     <form>
                         <div className="mb-4">
                         <label className="block text-white mb-1" htmlFor="name">Your Name</label>

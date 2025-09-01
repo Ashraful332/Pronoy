@@ -42,8 +42,8 @@ export default function Footer(){
                               <a href="https://www.ashraful.top/" target="_blank" className="w-[197px] text-center sm:text-start ">
                               Bander,narayanganj-bangladesh 
                               </a>
-                              <a href="https://www.ashraful.top/" target="_blank">ashrafulPathan3927@gmail.com</a>
-                              <a href="https://www.ashraful.top/" target="_blank">800-123-45-678</a>
+                              <a href="https://www.ashraful.top/" target="_blank" className="text-sm">ashrafulPathan3927@gmail.com</a>
+                              <a href="https://www.ashraful.top/" target="_blank">+800-100-00-000</a>
                         </div>
                         <div className="flex-center sm:flex-center-start gap-6">
                               <h3 className="footer-header">Follow Us</h3>
