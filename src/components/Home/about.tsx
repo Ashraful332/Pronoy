@@ -44,7 +44,7 @@ export default function AboutMe() {
                     Hello! I am a teacher and computer IT expert at Kuripara High School, Narayanganj, Bangladesh. Teaching and technology have always been my passion. I love guiding students, helping them explore the digital world, and preparing them for the future. My goal is to inspire young minds with knowledge, creativity, and practical IT skills. With dedication and honesty, I continue to contribute to education and technology in my community.                </p>
             </div>
             <div className="w-[97%] sm:w-[350px] h-auto sm:h-[350px] overflow-hidden rounded-lg ">
-                <Image src={Photo} alt="my photo" className="object-cover rounded-lg" />
+                <Image src={Photo} alt="my photo" className="object-cover w-full h-full transition-transform duration-500 ease-in-out hover:scale-110 " />
             </div>
         </div>
     )

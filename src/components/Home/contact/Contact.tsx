@@ -96,7 +96,7 @@ export default function Contact(){
                         ></textarea>
                         </div>
                         <button
-                        className="w-full bg-yellow-300 text-gray-800 py-2 px-4 rounded-lg hover:bg-yellow-400 transition duration-300"
+                        className="w-full py-2 bg-gradient-to-r from-blue-500 to-purple-700 text-white rounded-lg font-semibold hover:from-blue-600 hover:to-cyan-600 transition-all"
                         type="submit"
                         >
                         Send Message

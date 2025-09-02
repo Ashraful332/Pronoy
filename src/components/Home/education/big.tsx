@@ -88,7 +88,7 @@ export default function EducationBigScreen(){
                     </div>
                 </div>
             </div>
-            <div className="absolute w-[1.5px] h-[950px] bg-white "></div>
+            <div className="absolute w-[1.5px] h-[900px] bg-white "></div>
         </div>
     </div>
     )

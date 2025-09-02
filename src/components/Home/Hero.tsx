@@ -53,8 +53,8 @@ export default function Hero() {
                         </div>
                         <RESUME />
                   </div>
-                  <div className=" w-[97%] sm:w-[350px] h-auto sm:h-[350px] rounded-lg ">
-                        <Image src={Photo} alt="my photo" className="object-cover rounded-lg" />
+                  <div className=" w-[97%] sm:w-[350px] h-auto sm:h-[350px] overflow-hidden rounded-lg">
+                        <Image src={Photo} alt="my photo" className="object-cover w-full h-full transition-transform duration-500 ease-in-out hover:scale-110 " />
                   </div>
             </div>
       )
