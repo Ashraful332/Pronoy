@@ -14,11 +14,11 @@ export default function NaveBar() {
     <nav className="max-w-[1170px] flex items-center justify-between m-auto font-normal pt-[10px] pb-2 relative z-50 px-[14px] sm:px-[30px]  ">
       {/* Desktop Menu */}
       <div className="hidden lg:flex gap-[27px]">
-        <Link href='/'>Home</Link>
-        <Link href='/'>About me</Link>
-        <Link href='/'>Blog</Link>
-        <Link href='/'>Photos</Link>
-        <Link href='/'>Contact</Link>
+        <Link href='#Hero'>Home</Link>
+        <Link href='#about'>About me</Link>
+        <Link href='#work'>Experiences</Link>
+        <Link href='#photos'>Photos</Link>
+        <Link href='#contact'>Contact</Link>
       </div>
 
       {/* Mobile Menu Button */}
@@ -33,7 +33,7 @@ export default function NaveBar() {
 
       {/* Right side */}
       <div className="flex-row-center gap-5">
-        <p className="hidden sm:flex">Snowfall</p>
+        <p className="hidden text-lg sm:flex">প্রনয়</p>
         <Link href='/' className="Table-Reservation text-sm sm:text-[16px]">
           My Resume
         </Link>
@@ -51,11 +51,11 @@ export default function NaveBar() {
 
               {/* Menu Links */}
               <nav className="flex flex-col gap-4 text-white">
-                <Link href='/' onClick={() => setIsOpen(false)}>Home</Link>
-                <Link href='/' onClick={() => setIsOpen(false)}>About me</Link>
-                <Link href='/' onClick={() => setIsOpen(false)}>Blog</Link>
-                <Link href='/' onClick={() => setIsOpen(false)}>Photos</Link>
-                <Link href='/' onClick={() => setIsOpen(false)}>Contact</Link>
+                <Link href='#hero' onClick={() => setIsOpen(false)}>Home</Link>
+                <Link href='#about' onClick={() => setIsOpen(false)}>About me</Link>
+                <Link href='#work' onClick={() => setIsOpen(false)}>Experiences</Link>
+                <Link href='#photos' onClick={() => setIsOpen(false)}>Photos</Link>
+                <Link href='#contact' onClick={() => setIsOpen(false)}>Contact</Link>
               </nav>
             </div>
 

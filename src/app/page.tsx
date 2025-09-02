@@ -12,12 +12,12 @@ export default function Home() {
   return (
     <div className=" max-w-screen overflow-x-hidden  ">
       <NaveBar/>
-      <Hero/>
-      <AboutMe/>
-      <Education/>
-      <Work/>
-      <Photos/>
-      <Contact/>
+      <section id="hero"><Hero /></section>
+      <section id="about"><AboutMe /></section>
+      <section id="education"><Education /></section>
+      <section id="work"><Work /></section>
+      <section id="photos"><Photos /></section>
+      <section id="contact"><Contact /></section>
       {/* <Animation/> */}
       <Footer/>
     </div>
