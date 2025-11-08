@@ -10,7 +10,7 @@ import My6 from "@/assets/photo/6.jpg";
 export default function Photos(){
     return(
     <div className="spacer layer5">
-        <div className="flex-center pt-[var(--margin-high)] pb-6 w-[97%] sm:w-[80vw] lg:w-[70vw] xl:w-[60vw] mx-auto px-[14px] sm:px-[30px]  ">
+        <div className="flex-center pt-[var(--margin-high)] pb-6 w-[97%] sm:w-[80vw] lg:w-[70vw] xl:w-[60vw] mx-auto px-[14px] sm:px-[30px] max-w-6xl  ">
             <h3 className="text-2xl font-bold text-blue-500 ">Photos</h3>
             <p className="mb-7 ">my personal photo</p>
             <div className=" columns-1 sm:columns-2 lg:columns-3 gap-2">
